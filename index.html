@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>vk</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="header-wrapper">
+        <div class="container">
+            <div class="header">
+                <a href="" class="logo" id="logo">
+                    <div class="logo__img"></div>
+                    <div class="logo__text">#лучшедома</div>
+                </a>
+                <div class="covid pop-up" id="covid">
+                    <div class="covid__logo"></div>
+                    <div class="covid__title">Оставайтесь дома</div>
+                    <div class="covid__text">
+                        Мойте руки, избегайте скопления людей, по возможности не выходите из дома и проводите
+                        <a href="https://vk.com/feed">время&nbsp;с&nbsp;пользой</a>.
+                    </div>
+                </div>
+                <div class="search" id="search" aria-label="Поиск">
+                    <form method="" action="" name="search">
+                        <input type="text" id="searchInput">
+                    </form>
+                </div>
+                <a href="" class="toEng">Switch to English</a>
+            </div>
+        </div>
+    </section>
+    <section class="content-wrapper">
+        <div class="container">
+            <div class="content">
+                <div class="content__right">
+                    <div class="content__item authorization">
+                        <form method="" action="" name="authorization">
+                            <div aria-label="Телефон или email" class="content__input authorization__input contentInput">
+                                <input autofocus type="text" name="login">
+                            </div>
+                            <div aria-label="Пароль" class="content__input authorization__input contentInput">
+                                <input type="password" name="password">
+                            </div>
+                            <button type="submit" name="button" class="content__btn authorization__btn jumpingBtn">
+                                Войти
+                                <div class="load">
+                                    <div class="load__item"></div>
+                                    <div class="load__item"></div>
+                                    <div class="load__item"></div>
+                                </div>
+                            </button>
+                            <a href="https://vk.com/restore" class="authorization__forgot" id="authorizationForgot">Забыли пароль?</a>
+                            <div class="authorization__checkbox" id="authorizationCheckbox">
+                                Чужой компьютер
+                            </div>
+                        </form>
+                    </div>
+                    <div class="content__item registration">
+                        <div class="pop-up registration__pop-up --name-surname-1" id="registrationPopUpNameSurname-1">
+                            <b>Пожалуйста, укажите Ваше имя и&nbsp;фамилию.</b><br>Чтобы облегчить общение и поиск друзей, у&nbsp;нас приняты настоящие имена и фамилии.
+                        </div>
+                        <div class="pop-up registration__pop-up --name-surname-2" id="registrationPopUpNameSurname-2">
+                            <b>Пожалуйста, укажите Ваше имя и&nbsp;фамилию.</b><br>Чтобы облегчить общение и поиск друзей, у&nbsp;нас приняты настоящие имена и фамилии.
+                        </div>
+                        <div class="pop-up registration__pop-up --birthday" id="registrationPopUpBirthday">Пожалуйста, укажите дату рождения</div>
+                        <div class="pop-up registration__pop-up --sex" id="registrationPopUpSex">Пожалуйста, укажите пол</div>
+                        <form method="" action="" name="registration">
+                            <h2>Впервые ВКонтакте?</h2>
+                            <h3>Моментальная регистрация</h3>
+                            <div aria-label="Ваше имя" class="content__input contentInput">
+                                <input name="name" type="text">
+                            </div>
+                            <div aria-label="Ваша фамилия" class="content__input contentInput">
+                                <input name="surname" type="text">
+                            </div>
+                            <div class="birthday">
+                                <div class="registration__title">Дата рождения</div>
+                                <span class="birthday__icon" id="birthdayIcon"></span>
+                                <div class="helper pop-up" id="helper">
+                                    <b>Заполненная дата рождения</b> позволит друзьям легче найти Вас, а также подбирать для Вас интересные материалы.<br>Вы сможете всегда настроить видимость Вашей даты рождения в редактировании профиля.
+                                </div>
+                                <div class="content__input birthday__input --small birthdayInput">
+                                    <input name="birthdayDay" type="text">
+                                    <div class="list-wrapper list">
+                                        <ul id="listDay">
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="content__input birthday__input --big birthdayInput">
+                                    <input name="birthdayMonth" type="text">
+                                    <div class="list-wrapper list">
+                                        <ul id="listMonth">
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="content__input birthday__input --small birthdayInput">
+                                    <input name="birthdayYear" type="text">
+                                    <div class="list-wrapper list">
+                                        <ul id="listYear">
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sex" id="sex">
+                                <div class="registration__title sex__title">Ваш пол</div>
+                                <input type="radio" name="sex" value='female' id="sexFemale">
+                                <label id="sexFamaleLabel" for="sexFemale">
+                                    <span></span>
+                                    Женский
+                                </label>
+                                <input type="radio" name="sex" value='male' id="sexMale">
+                                <label id="sexMaleLabel" for="sexMale">
+                                    <span></span>
+                                    Мужской
+                                </label>
+                            </div>
+                            <button type="submit" name="button" class="content__btn registration__btn jumpingBtn">Продолжить регистрацию</button>
+                            <div class="registration__use-facebook" id="registrationUseFacebook">
+                                <a href="https://www.facebook.com/login.php" rel="noopener noreferrer" target="_blank" class="content__btn">Войти через Facebook</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="content__item vk-connect">
+                        После регистрации Вы получите доступ ко всем возможностям VK Connect.
+                        <br>
+                        <a href="https://connect.vk.com/promo" target="_blank">
+                            Узнать больше
+                        </a>
+                    </div>
+                </div>
+                <div class="content__left">
+                    <div class="mobile__title">
+                        ВКонтакте для мобильных устройств
+                    </div>
+                    <div class="mobile__text">
+                        Установите официальное мобильное приложение ВКонтакте и оставайтесь в курсе новостей Ваших друзей, где бы Вы ни находились.
+                    </div>
+                    <div class="mobile__devices">
+                        <a href="https://play.google.com/store/apps/details?id=com.vkontakte.android" class="mobile__devices-item jumpingBtnWithClassLink" target="_blank">
+                            <span class="jumpingBtnWithClass">
+                                VK для Android
+                            </span>
+                        </a>
+                        <a href="https://apps.apple.com/ru/app/id564177498" class="mobile__devices-item jumpingBtnWithClassLink" target="_blank">
+                            <span class="jumpingBtnWithClass">
+                                VK для iPhone
+                            </span>
+                        </a>
+                    </div>
+                    <a href="https://vk.com/products" class="mobile__all-apps">Все продукты</a>
+                </div>
+                <div class="footer">
+                    <div class="footer__nav">
+                        <div class="footer__copy">
+                            <a href="https://vk.com/about">ВКонтакте</a>
+                            © 2006–2020
+                        </div>
+                        <div class="footer__links">
+                            <a href="https://vk.com/about">О ВКонтакте</a>
+                            <a href="https://vk.com/terms">Правила</a>
+                            <a href="https://vk.com/biz?utm_source=vk_inside&utm_medium=authorization">Для бизнеса</a>
+                            <a href="https://vk.com/dev">Разработчикам</a>
+                        </div>
+                        <div class="footer__lang">
+                            <a>Русский</a>
+                            <a>Українська</a>
+                            <a>English</a>
+                            <a>все языки »</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/build.min.js"></script>
+</body>
+</html>

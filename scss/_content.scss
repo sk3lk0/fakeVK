@@ -175,22 +175,22 @@
         left: 0;
         width: 15px;
         height: 15px;
-        background: transparent url('img/svg/checkbox.svg') no-repeat 50%/contain;
+        background: transparent url('../img/svg/checkbox.svg') no-repeat 50%/contain;
     }
     &:hover:before{
-        background-image: url('img/svg/checkboxHover.svg');
+        background-image: url('../img/svg/checkbox-hover.svg');
     }
     &.active:before{
-        background-image: url('img/svg/checkboxActive.svg');
+        background-image: url('../img/svg/checkbox-active.svg');
     }
     &.active:hover:before{
-        background-image: url('img/svg/checkboxActiveHover.svg');
+        background-image: url('../img/svg/checkbox-active-hover.svg');
     }
     &.disabled.active:hover:before{
-        background-image: url('img/svg/checkboxActive.svg');
+        background-image: url('../img/svg/checkbox-active.svg');
     }
     &.disabled:hover:before{
-        background-image: url('img/svg/checkbox.svg');
+        background-image: url('../img/svg/checkbox.svg');
     }
 }
 
@@ -221,7 +221,7 @@
         left: 0;
         width: 17px;
         height: 17px;
-        background: url('img/svg/birthday.svg') 50% no-repeat;
+        background: url('../img/svg/birthday.svg') 50% no-repeat;
     }
 }
 
@@ -254,7 +254,7 @@
         transform: translateY(-50%);
         display: block;
         content: '';
-        background: url('img/arrowDown.png') no-repeat 50%/contain;
+        background: url('../img/arrow-down.png') no-repeat 50%/contain;
         width: 10px;
         height: 10px;
         z-index: 2000;
@@ -343,19 +343,19 @@
     }
     input + label span{
         display: inline-block;
-        background: url('img/svg/radio.svg') no-repeat;
+        background: url('../img/svg/radio.svg') no-repeat;
         width: 14px;
         height: 14px;
     }
     input + label:hover span,
     input:focus + label span{
-        background-image: url('img/svg/radioHover.svg');
+        background-image: url('../img/svg/radio-hover.svg');
     }
     input:checked + label span{
-        background-image: url('img/svg/radioActive.svg');
+        background-image: url('../img/svg/radio-active.svg');
     }
     input:checked + label:hover span{
-        background-image: url('img/svg/radioActiveHover.svg');
+        background-image: url('../img/svg/radio-active-hover.svg');
     }
     label{
         display: inline-flex;
@@ -448,7 +448,7 @@
             top: 37px;
             transform: translateY(-50%);
             left: 10px;
-            background: url('img/svg/facebook.svg') 50% no-repeat;
+            background: url('../img/svg/facebook.svg') 50% no-repeat;
             width: 16px;
             height: 17px;
         }
@@ -487,14 +487,14 @@
     width: 183px;
     padding-top: 411px;
     display: inline-block;
-    background: url('img/android.png') no-repeat 0 8px;
+    background: url('../img/android.png') no-repeat 0 8px;
     &:nth-child(2){
         width: 198px;
-        background: url('img/iphone.png') no-repeat 0 0;
+        background: url('../img/iphone.png') no-repeat 0 0;
         margin-left: -34px;
         span{
             &:before{
-                background: url('img/svg/apple.svg');
+                background: url('../img/svg/apple.svg');
             }
         }
     }
@@ -517,7 +517,7 @@
             position: relative;
             width: 16px;
             height: 16px;
-            background: url('img/svg/android.svg');
+            background: url('../img/svg/android.svg');
             display: inline-block;
             vertical-align: top;
             transform: translateY(0);
@@ -543,7 +543,7 @@
         content: '';
         display: inline-block;
         position: relative;
-        background: url('img/svg/arrowRight.svg') no-repeat 50%/contain;
+        background: url('../img/svg/arrow-right.svg') no-repeat 50%/contain;
         width: 8px;
         height: 8px;
         margin-left: 4px;

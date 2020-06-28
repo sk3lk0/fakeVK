@@ -2,6 +2,8 @@
     background-color: $button-background-color-active;
     height: 42px;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     min-width: 990px;
     z-index: 2000;
@@ -29,7 +31,7 @@
 }
 
 .logo__img{
-    background-image: url('img/svg/vkLogo.svg');
+    background-image: url('../img/svg/vk-logo.svg');
     width: 24px;
     height: 24px;
     margin-right: 10px;
@@ -96,7 +98,7 @@
     top: 50%;
     left: 14px;
     transform: translateY(-50%);
-    background: url('img/svg/covidLogo.svg') no-repeat 50%/contain;
+    background: url('../img/svg/covid-logo.svg') no-repeat 50%/contain;
     width: 64px;
     height: 64px;
     border-radius: 50%;
@@ -118,7 +120,7 @@
         width: 230px;
         border-radius: 14px;
         margin: 7px 0;
-        background: $blue_640 url('img/svg/search.svg') no-repeat;
+        background: $blue_640 url('../img/svg/search.svg') no-repeat;
         background-position: left 8px;
         caret-color: transparent;
         font-weight: 500;
